@@ -8,6 +8,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: chartreuse;
 }
@@ -22,6 +26,7 @@ h1 {
 .little-finger {
     width: 50%;
     padding: 5%;
+
 }
 
 .little-finger {
@@ -50,7 +55,17 @@ h1 {
     background-position: right;
 }
 
-.experience {
+.baby-level {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
 
-    flex: none;
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
